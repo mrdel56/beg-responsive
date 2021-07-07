@@ -6,7 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
     <style>
+        body {
+            margin: 0;
+        }
+
         .menu {
             background-color: black;
             display: flex;
@@ -24,6 +30,37 @@
         .menu a:hover {
             color: red;
         }
+
+        #orange {
+            color: orangered;
+        }
+
+        .first {
+            width: 50%;
+            padding: 7%;
+
+        }
+
+        .first img {
+            width: 90%;
+        }
+
+        .top-banner {
+            display: flex;
+            background-image: url(7.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+
+        }
+
+        .button {
+            background-image: linear-gradient(orange, tomato);
+            padding: 20px 40px;
+            border-radius: 20px;
+            font-weight: 900;
+            color: white;
+            text-decoration: none;
+        }
     </style>
 
 
@@ -32,12 +69,41 @@
 </head>
 
 <body>
-    <div class="menu">
-        <a href="Home">Home</a>
-        <a href="About">About</a>
-        <a href="Contact">Contact</a>
-        <a href="More">More</a>
-    </div>
+    <section id="all-code">
+
+
+        <div class="menu">
+            <a href="Home">Home</a>
+            <a href="About">About</a>
+            <a href="Services"> Services</a>
+            <a href="Contact">Contact</a>
+            <a href="More">More</a>
+        </div>
+        <section class="top-banner">
+            <div class="first">
+                <h1>
+
+                    <span id="orange">Skip</span> The Diet,<br>
+                    Just Eat Healthy <br>
+                    With Food Network
+                </h1>
+
+                <p>
+                    Hei! You don't need take any risk at this pandemic situation to take food from restuarent. We always
+                    here ready to cook your preferable food with testy and deliver to your. So you don't need scorolling
+                    more, here we are! </p>
+                <br><br><br>
+
+                <a class="button" target="_blank" href="https://www.mcdonalds.com/us/en-us.html"> Order Us</a>
+            </div>
+            <div class="first">
+                <img src="background-man.png" alt="">
+            </div>
+        </section>
+    </section>
+
+
+
 </body>
 
 </html>
